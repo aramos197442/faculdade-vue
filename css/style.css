@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+}
+
+#page {
+	background: hsl(0, 0%, 100%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: .2s ease;
+}

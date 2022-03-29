@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+<script src="http://unpkg.com/vue@next"></script>
+
+<div id="page" >
+
+
+    <div v-bind:style=" { background: cor } ">
+        <input type="checkbox" v-model="cor" true-value='hsl(208, 87%, 30%)' false-value='hsl(207, 30%, 90%)'>NightMode</input><br><br>
+        
+        <input v-model="nome" placeholder="Digite seu nome" /><br>
+        <input v-model="sobrenome" placeholder="Digite último sobrenome" /><br>
+        <input v-model="idade" placeholder="Digite sua idade" />
+
+        <p>{{ cor }}</p>
+    
+        <p>Meu nome é: {{ nome }} {{ sobrenome }} e tenho {{ idade }} anos.</p>
+    </div>
+    
+</div>
+
+<script src="./meuScript.JS"></script>
